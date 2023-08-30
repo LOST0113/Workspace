@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: antiquewhite;
+            color: red;
+        }
+
+        .ctx {
+            text-align: center;
+            margin: 50px;
+            height: 50%;
+        }
+
+        .barra {
+        background-color: black;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 35px;
+      }
+
+      .container {
+          text-align: center;
+          box-shadow: 4px 1px 5px purple;
+          text-shadow: 1px 1px 1px green;
+          display: flex;
+          flex-direction: column;
+      }
+
+      .container:hover{
+        color: black;
+      }
+
+      .ctx h1:hover{
+        color: blue;
+      }
+      
+      .ctx p:hover{
+        color: brown;
+      }
+
+      body:hover{
+        background-color: aquamarine;
+      }
+
+      .barra:hover {
+        background-color: pink;
+      }
+    </style>
+    <title>Teste</title>
+</head>
+<body>
+    <div class="barra"></div>
+    <div class="ctx">
+        <h1 >Test</h1>
+        <p >teste de estilização css.</p>
+    </div>
+    <div class="container">
+        <p>Hello, (centered) World!</p>
+      </div>
+</body>
+</html>
