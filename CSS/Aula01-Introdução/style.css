@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Nanum+Gothic:wght@400;700;800&display=swap');
+
+body {
+    background-color: chocolate;
+}
+
+.primeiro {
+    font-family: 'Nanum Gothic', sans-serif;
+    background-color: pink;
+    color: crimson;
+    width: 70%;
+    justify-content: center;
+    margin-bottom: 10px;
+    display: flex;
+    margin-left: 15%;
+}
+
+.segundo {
+    font-family: 'Black Ops One', cursive;
+    background-color: blue;
+    color: crimson;
+    width: 70%;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+}
