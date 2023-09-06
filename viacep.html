@@ -8,8 +8,9 @@
 <body>
     <h1>Consultar Endereço ViaCEP</h1>
     <label for="">Digite seu CEP</label>
-    <input type="number" name="" id="cep">
+    <input type="number" value="02256000" id="cep">
     <button onclick="consulta()">Consultar</button>
+    <button onclick="showAddr()">Teste</button>
     <div class="resultado">
         <p>Seu Resultado Aqui</p>
     </div>
@@ -23,19 +24,20 @@
                 return;
             }
 
-            let url = 'https://viacep.com.br/ws/' + cep + '/json';
+            let url = `https://viacep.com.br/ws/${cep}/json`;
 
             fetch(url).then(function(response){
                 response.json().then(function(data){
                     console.log(data)
+                    showAddr(data)
                 })
             });
         }
 
         function showAddr(dados) {
             let resultado = document.querySelector("#resultado");
-
-            resultado.innerHTML = "Endereço: " + dados.logradouro
+            
+            resultado.innerHTML = `Dados : ${dados.logradouro}`
         }
     </script>
 </body>

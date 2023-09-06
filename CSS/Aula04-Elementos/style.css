@@ -1,0 +1,29 @@
+body {
+    background-image: url("IMG/milho.jpg");
+    /* background-position: 100px; */
+    /* background-repeat: no-repeat; */
+    background-attachment: scroll;
+}
+
+#primeira-div {
+    border: 2px dashed rebeccapurple;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+}
+
+#segunda-div {
+    border: 2px dotted red;
+    padding-left: 1rem;
+}
+
+#foto1 {
+    width: 200px;
+    height: 200px;
+}
+
+#foto2 {
+    width: 200px;
+    height: 200px;
+}
+
+/* Imagem de fundo utilizando atributo background-image */
