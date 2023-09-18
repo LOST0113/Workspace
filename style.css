@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container {
+    height: 80%;
+    width: 50%;
+    background-color: brown;
+    border-right: 10px solid pink;
+    border-radius: 6px;
+    box-shadow: 2px 2px 10px black;
+}
+
+.titulo {
+    text-align: center;
+    color: #fff;
+    margin: 1rem auto;
+}
