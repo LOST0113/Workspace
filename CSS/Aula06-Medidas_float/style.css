@@ -1,7 +1,25 @@
-#pai {
-    font-size: 50px;
+:root {
+    font-size: 16px
 }
 
+/* #pai {
+    font-size: 50px;
+} */
+
 p {
-    font-size: .5em;
+    background-color: aqua;
+    font-size: 1rem;
+}
+
+#pipoca-salgada {
+    float: left;
+}
+
+#paragrafo {
+}
+
+#pipoca-doce {
+    clear: right;
+    width: 680px;
+    height: 400px;
 }
