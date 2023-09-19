@@ -1,3 +1,7 @@
-p {
+#pai {
     font-size: 50px;
+}
+
+p {
+    font-size: .5em;
 }

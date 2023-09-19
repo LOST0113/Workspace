@@ -27,3 +27,13 @@ body {
     color: #fff;
     margin: 1rem auto;
 }
+
+.list {
+    margin-left: 1.6rem;
+    color: #fff;
+}
+
+hr {
+    width: 75%;
+    text-align: right;
+}
