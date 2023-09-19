@@ -2,24 +2,49 @@
     font-size: 16px
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
 /* #pai {
     font-size: 50px;
 } */
 
-p {
+#pai p {
+    font-size: 2rem;
+    margin: 2rem;
+}
+
+/* p {
     background-color: aqua;
     font-size: 1rem;
-}
+} */
+
+/* .div1 {
+    clear: both;
+} */
 
 #pipoca-salgada {
     float: left;
 }
 
 #paragrafo {
+    clear: none;
+    margin: 1rem;
 }
 
 #pipoca-doce {
-    clear: right;
+    float: right;
     width: 680px;
     height: 400px;
+}
+
+img {
+    margin: 0 1rem;
 }
