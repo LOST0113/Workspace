@@ -36,6 +36,14 @@
                 <p>DIV8</p>
             </div>
         </div>
+        <script>
+            let itens = document.getElementsByClassName("itens");
+            for(let i=0; i < itens.length; i++){
+                itens[i].onclick = function(){
+                    alert(itens[i].innerText);
+                }
+            }
+        </script>
     </main>
 </body>
 </html>
