@@ -3,12 +3,12 @@
     height: 100vh;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 100px 100px 100px 100px 100px 100px;
-    grid-template-areas: "div1 div1 div5 div5"
-    "div2 div2 div2 div2"
+    grid-template-areas: "div1 div1 div2 div2"
     "div3 div3 div3 div3"
-    ". div7 div7 ."
-    "div8 div8 div8 div8"
-    "div6 div6 div9 div4";
+    "div4 div4 div4 div4"
+    ". div5 div5 ."
+    "div6 div6 div6 div6"
+    "div7 div7 div8 div9";
     justify-content: center;
 }
 
