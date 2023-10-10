@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(wallpaperflare.com_wallpaper.jpg);
+    
+    background-size: 100%;
+}
+
+.container {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    background: #fff;
+    backdrop-filter: blur(1px);
+}
+
+form {
+    width: 80%;
+    justify-content: space-around;
+}
+
+.header h2 {
+    text-align: center;
+    margin: 20px;
+    color: #000;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.inputs {
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background: none;
+    border-bottom: 1px solid #000;
+}
+
+input[type="submit"] {
+    background: linear-gradient(90deg, rgb(89, 1, 99), blue);
+    width: 100%;
+    margin: 0 0 20px 0;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.input-butom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 0;
+    padding: 0 20px;
+}
+
+.reme label {
+    color: #000;
+}
+
+.lostpass a {
+    color: #000;
+    text-decoration: none;
+}
+
+.lostpass a:hover {
+    text-decoration: underline;
+}
