@@ -6,6 +6,7 @@ const degress = document.querySelector("#degress");
 const img = document.querySelector("img");
 const wind = document.querySelector("#wind");
 const content = document.querySelector(".content");
+const time = document.querySelector("#time");
 
 const api_key = "264ea4e8250c55662db59bd1cfaf1022";
 
@@ -34,10 +35,16 @@ async function getDataApi() {
 }
 
 function loadData(data) {
-    console.log(data)
+    console.log(data);
+    console.log(new Date(data.dt * 1000));
+    let date = new Date(data.dt * 1000);
+
+    let timestr = `${date.getDay()}/${date.getMonth()}/${date.getFullYear()} ${date.getHours()}:${date.getMinutes()}`;
+
     place.innerHTML = `${data.name}, ${data.sys.country}`;
     degress.innerHTML = `Temperatura: ${Math.floor(data.main.temp)}° C`;
     img.src = `http://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`;
     wind.innerHTML = `Vento: ${data.wind.speed} km/h`;
+    time.innerHTML = `Data ${timestr}`;
     content.style.display = "flex";
 }

@@ -40,10 +40,10 @@ let soma = x / y;
 
 console.log(soma);
 
-let texto1 = "game ";
+let texto1 = "Pensando mais a longo prazo, a constante ";
 
-let texto2 = "of thrones";
+let texto2 = "divulgação das informações ainda não demonstrou convincentemente";
 
-let somaString = texto1 + texto2;
+var concatenar = texto1 + texto2;
 
-console.log(somaString);
+console.log(concatenar);
