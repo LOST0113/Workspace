@@ -9,4 +9,8 @@ let tabuada = (n) => {
     }
 }
 
-tabuada(9);
+let divisoria = document.getElementById("divisoria");
+
+let principal = () => {
+    divisoria.innerHTML = "<h2>Hello World!!!</h2>";
+}
