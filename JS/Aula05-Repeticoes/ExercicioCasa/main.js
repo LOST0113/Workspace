@@ -4,13 +4,10 @@ let resol = (a, b) => {
 }
 
 let tabuada = (n) => {
+    console.log(`Tábuada do ${n}`);
     for(let i = 0; i < 11; i++){
         resol(n, i);
     }
 }
 
-let divisoria = document.getElementById("divisoria");
-
-let principal = () => {
-    divisoria.innerHTML = "<h2>Hello World!!!</h2>";
-}
+tabuada(8)
