@@ -25,7 +25,7 @@ class contaBancaria {
     }
 }
 
-let conta1= new contaBancaria("Aluna 1", 20, 1000, "Feminino", "Agencia 1", "Conta 1", "Poupança");
+let conta1 = new contaBancaria("Aluna 1", 20, 1000, "Feminino", "Agencia 1", "Conta 1", "Poupança");
 let conta2 = new contaBancaria("Aluna 2", 22, 1500, "Masculino", "Agencia 2", "Conta 2", "Corrente");
 let conta3 = new contaBancaria("Aluna 3", 25, 1200, "Feminino", "Agencia 3", "Conta 3", "Estudante");
 
@@ -37,7 +37,7 @@ console.log("Sexo:", conta1.sexo);
 console.log("Agência:", conta1.agencia);
 console.log("Conta:", conta1.conta);
 console.log("Tipo de Conta:", conta1.tipoConta);
-console.log("Novo salário com desconto:", conta1.contaPoupança());
+console.log("Novo salário com desconto:", conta1.contaPoupanca());
 
 console.log("\nInformações da Aluna 2:");
 console.log("Nome:", conta2.nome);
