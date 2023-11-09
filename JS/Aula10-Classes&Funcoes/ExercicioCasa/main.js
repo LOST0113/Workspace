@@ -9,7 +9,7 @@ class contaBancaria {
         this.tipoConta = tipoConta;
     }
     
-    contaPoupança() {
+    contaPoupanca() {
         let taxaPoupança = 0.015;
         return this.salario * (1 - taxaPoupança);
     }
