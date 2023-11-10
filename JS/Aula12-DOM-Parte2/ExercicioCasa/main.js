@@ -11,4 +11,4 @@ botao.addEventListener("click", () => {
     imagem.src = "IMG/the-umbrella-1-550x298.jpg";
     imagem.alt = "The Umbrella Academy";
     document.body.appendChild(imagem);
-})
+});
