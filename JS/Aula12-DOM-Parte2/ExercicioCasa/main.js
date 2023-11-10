@@ -12,3 +12,9 @@ botao.addEventListener("click", () => {
     imagem.alt = "The Umbrella Academy";
     document.body.appendChild(imagem);
 });
+
+let printTabuada = () => {
+    let promptvalue = prompt("Insira o número da tábuada");
+    let mySpan = createElement("span");
+    mySpan.innerHTML = 
+}
