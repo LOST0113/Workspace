@@ -14,7 +14,10 @@ botao.addEventListener("click", () => {
 });
 
 let printTabuada = () => {
-    let promptvalue = prompt("Insira o número da tábuada");
-    let mySpan = createElement("span");
-    mySpan.innerHTML = 
+    let promptValue = prompt("Insira o número da tábuada");
+    let mySpan = document.createElement("span");
+    for (let i = 1; i < 11; i++) {
+        mySpan.innerHTML += `${i} x ${promptValue} = ${promptValue * i} <br>`;
+    }
+    document.body.appendChild(mySpan);
 }
