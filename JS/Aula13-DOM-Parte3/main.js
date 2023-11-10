@@ -38,5 +38,5 @@ inputNameArea.addEventListener("keypress", (event) => {
     }
 });
 
-document.body.style.backgroundColor = "#000"
+// document.body.style.backgroundColor = "#000"
 console.log(pipopa);
