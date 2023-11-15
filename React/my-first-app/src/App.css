@@ -1,0 +1,10 @@
+.square {
+  background-color: #FFF;
+  border: solid 1px grey;
+  border-radius: 0;
+  font-weight: bold;
+}
+
+.square:hover {
+  background-color: grey;
+}
