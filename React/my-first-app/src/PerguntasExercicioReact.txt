@@ -1,0 +1,23 @@
+Com suas palavras explique oque é:
+React:
+React é um framework e uma bliblioteca criada pelo Facebook que é usado para criar interfaces de usuário (UI) em aplicativos web.
+
+Diferença de biblioteca e framework:
+As bibliotecas são usadas como ferramentas para ajudar a construir o projeto como JQuery, enquanto os frameworks são usados como um esqueleto para o projeto como React.
+
+Props:
+Props vem de propriedades e são usadas para passar dados entre componentes.
+
+Hooks:
+Hooks são funções que permitem a você “ligar-se” aos recursos de state e ciclo de vida do React a partir de componentes funcionais.
+
+Components:
+Componentes são basicamente funções que retornam jsx ou outros componentes, também podem ser em formato de classes.
+
+
+Referências:
+https://www.alura.com.br/artigos/react-js
+https://www.dio.me/articles/framework-vs-biblioteca-qual-a-diferenca-e-como-escolher-a-melhor-opcao-para-seu-projeto
+https://edu.gcfglobal.org/pt/criacao-de-sites/bibliotecas-templates-e-estrutura-frontend/1/
+https://www.freecodecamp.org/portuguese/news/react-js-para-iniciantes-props-e-state-explicados/
+https://pt-br.legacy.reactjs.org/docs/hooks-overview.html
