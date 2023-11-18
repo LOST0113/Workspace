@@ -9,13 +9,13 @@ let Principal = () => {
         <>
             <p style={estilo}>Estou participando do curso de IOS com o objetivo de adquirir conhecimentos fundamentais na área de desenvolvimento front-end. Meu intuito é aprender a colaborar eficientemente em projetos de equipe, aprimorar minhas habilidades de comunicação e, a longo prazo, evoluir como desenvolvedor.</p>
 
-            <ul style={{listStyle: "none"}}>
+            <ol>
                 <li>Girl Interrupted</li>
                 <li>The Professional</li>
                 <li>Club of fight</li>
-                <li>Thirteen</li>
                 <li>Requiem for a dream</li>
-            </ul>
+                <li>Thirteen</li>
+            </ol>
 
             <img src={GirlInterrupted} alt="Girl Interrupted" width={200} />
         </>
